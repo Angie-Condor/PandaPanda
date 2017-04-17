@@ -14,17 +14,67 @@ header{
   position: fixed;
 }
 
+ul{
+  margin-left: 20px;
+}
+
 li{
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   list-style: none;
 }
 
 a{
   color: rgb(245, 222, 153);
-  padding: 10px;
+  padding: 5px;
 }
 
 a:hover{
   color: rgb(246, 206, 33);
+}
+
+.img-pandas{
+  margin-top: 80px;
+  margin-left: 80px;
+}
+
+.contenedor-img{
+  position: relative;
+  display: inline-block;
+  border: 6px solid;
+  border-color: gray;
+  margin: 0px 10px;
+}
+
+img{
+  width: 180px;
+  height: 150px;
+}
+
+.cerrar{
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 5px;
+  cursor: pointer;
+}
+
+.box-menu{
+  display: inline-block;
+  margin: 30px;
+
+}
+
+.menu{
+  display: inline-block;
+  background-color: rgb(202, 60, 37);
+  color: rgb(245, 222, 153);
+  margin: 10px 3px;
+  width: 350px;
+  text-align: center;
+}
+
+.parrafos{
+  color: rgb(245, 222, 153);
+  font-size: 14px;
 }

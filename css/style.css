@@ -12,10 +12,11 @@ header{
   right: 0;
   font-size: 14px;
   position: fixed;
+  z-index: 1;
 }
 
 ul{
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 li{
@@ -33,11 +34,7 @@ a:hover{
   color: rgb(246, 206, 33);
 }
 
-.img-pandas{
-  margin-top: 80px;
-  margin-left: 80px;
-}
-
+/*Estilos para imágenes*/
 .contenedor-img{
   position: relative;
   display: inline-block;
@@ -56,25 +53,47 @@ img{
   color: white;
   top: 10px;
   left: 5px;
-  cursor: pointer;
+  text-decoration: none;
 }
 
+/*Estilos para el menú*/
 .box-menu{
   display: inline-block;
-  margin: 30px;
-
+  margin: 20px 0px;
 }
 
 .menu{
   display: inline-block;
   background-color: rgb(202, 60, 37);
   color: rgb(245, 222, 153);
-  margin: 10px 3px;
-  width: 350px;
+  margin: 3px 2px;
+  width: 300px;
   text-align: center;
 }
 
-.parrafos{
+/*Estilos para los párrafos*/
+.info{
   color: rgb(245, 222, 153);
   font-size: 14px;
+  width:80%;
+  margin: 10px 0px;
+}
+
+.p-1, .p-2{
+  width: 48%;
+  display: inline-block;
+  text-align: justify;
+  margin: 5px 1px;
+}
+
+.p-1{
+  float: left;
+}
+
+.p-2{
+  float: right;
+}
+
+.content-total{
+  margin: 70px 100px;
 }
